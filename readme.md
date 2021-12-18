@@ -82,6 +82,7 @@ The value epsilon = 0.1 balances both of these tradeoffs to a reasonable degree.
 
 - ipynb file for approach 1 (TensorFlow Privacy -> Can be run directly)
 - ipynb file for approach 2 (Pytorch - > Can be run directly)
+- plots folder contains all the results
 
 ## References
 
