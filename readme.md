@@ -47,6 +47,12 @@ Global Differential privacy in Deep learning involves the use of teacher models 
 <img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/plot_a1_acc.png">
 <img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/plot_a1_val_acc.png">
 
+### Observations
+
+- Increasing the noise reduces the value of epsilon which should imply better privacy protection.
+- It is also known that privacy protection level is inversely proportional to model performance.
+- We observe little difference for 0.1 and 1, but noise = 10 degrades the performance by a big margin.
+
 Following are the observed values of epsilon for various values of the noise multiplier:
 
 | Noise         | Epsilon          | 
@@ -72,6 +78,11 @@ We vary the variable epsilon to manipulate the impact of randomization on the da
 As the value of epsilon increases, the model becomes less and less differentially private. However, as the value of epsilon decreases, so does the model performance. 
 The value epsilon = 0.1 balances both of these tradeoffs to a reasonable degree. 
 
+
+## Description of the repository
+
+- ipynb file for approach 1 (TensorFlow Privacy -> Can be run directly)
+- ipynb file for approach 2 (Pytorch - > Can be run directly)
 
 ## References
 
