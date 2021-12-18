@@ -32,11 +32,11 @@ We vary the variable epsilon to manipulate the impact of randomization on the da
 <img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/acc_ep_3e-1.png">
 <img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/loss_ep_3e-1.png">
 ### Epsilon = 0.7
-<img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/acc_ep_7e-1.png">
+<img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/accuracy_ep_7e-1.png">
 <img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/loss_ep_7e-1.png">
 
 ### Epsilon = 0.1
-<img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/acc_ep_1e-1.png">
+<img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/accuracy_ep_1e-1.png">
 <img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/loss_ep_1e-1.png">
 
 As the value of epsilon increases, the model becomes less and less differentially private. However, as the value of epsilon decreases, so does the model performance. 
