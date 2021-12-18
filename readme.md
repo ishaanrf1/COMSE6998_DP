@@ -31,6 +31,7 @@ We vary the variable epsilon to manipulate the impact of randomization on the da
 ### Epsilon = 0.3
 <img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/accuracy_ep_3e-1.png">
 <img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/loss_ep_3e-1.png">
+
 ### Epsilon = 0.7
 <img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/accuracy_ep_7e-1.png">
 <img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/loss_ep_7e-1.png">
