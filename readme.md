@@ -29,14 +29,14 @@ Global Differential privacy in Deep learning involves the use of teacher models 
 ## Results
 We vary the variable epsilon to manipulate the impact of randomization on the data and to vary the privacy property of the model. This is the parameter that determine the exponential decay of the laplacian noise that we apply to the outputs of the teacher model. We experiment with multiple values of epsilon and finally settle on epsilon = 0.1. The results for a few values are shown below. 
 ### Epsilon = 0.3
-<img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/acc_ep_3e-1.png">
+<img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/accuracy_ep_3e-1.png">
 <img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/loss_ep_3e-1.png">
 ### Epsilon = 0.7
 <img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/accuracy_ep_7e-1.png">
 <img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/loss_ep_7e-1.png">
 
 ### Epsilon = 0.1
-<img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/accuracy_ep_1e-1.png">
+<img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/acc_ep_1e-1.png">
 <img src="https://github.com/ishaanrf1/COMSE6998_DP/blob/main/plots/loss_ep_1e-1.png">
 
 As the value of epsilon increases, the model becomes less and less differentially private. However, as the value of epsilon decreases, so does the model performance. 
